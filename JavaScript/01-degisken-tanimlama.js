@@ -1,14 +1,14 @@
 // ********* let ve const ile Degisken Tanimlama  ********
 
 // var ile degisken tanımlamak:
-var serverNAME ="calismakampi.com"
+//var serverNAME ="calismakampi.com"
 
-console.log("calismakampi.com") //Yanlış kullanım. Eğer adres değişikliği olursa sürekli aramak yerine aşağıdaki örnekteki gibi yapılabilir.
+//console.log("calismakampi.com") //Yanlış kullanım. Eğer adres değişikliği olursa sürekli aramak yerine aşağıdaki örnekteki gibi yapılabilir.
 
-console.log(serverName) //Doğru kullanım. serverNAME değiştikçe buradaki "Name'de değşir".
+//console.log(serverName) //Doğru kullanım. serverNAME değiştikçe buradaki "Name'de değşir".
 // let ile degiskeni bos tanimlamak:
-let serverNAME;
-console.log(serverNAME) //Console'de herhangi bi değer alınamaz "serverNAME" değişkeninde herhangi bir değer bulunmamakta.
+//let serverNAME;
+//console.log(serverNAME) //Console'de herhangi bi değer alınamaz "serverNAME" değişkeninde herhangi bir değer bulunmamakta.
 
 //let ile degiskene bilgi atamak:
  serverNAME = "https://calismakampi.com" //Bu sefer Console'den değer alabilirsiniz "serverNAME" değişkeninde değer bulunmakta.
@@ -31,7 +31,7 @@ console.log (fullName) //DOĞRU KULLANIM
 
 //birlestirme veya ekleme islemi:
 fullName + "Yeni Eklenen Bilgi" //bu şekilde yazılırsa eklenmez.
-console.log(fullName + "Test Bilgisi") //eğer tırnak açtıktan sonra boşluk koyulmaz ise cümle bitişik halde olur.
+console.log(fullName + " Test Bilgisi") //eğer tırnak açtıktan sonra boşluk koyulmaz ise cümle bitişik halde olur.
 
 
 //const ile degiskeni bos tanimlamaya calismak:
