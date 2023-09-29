@@ -1,0 +1,16 @@
+var-let Farkı!!
+var vs let
+İlk Olarak, var ve let'i karşılaştıralım. var ve let aarasında ki fark, "var function
+scope özelliği taşırken", "let block scope özelliği taşımaktadır." Yani let ile
+oluşturulan bir değişken sadece oluşturulduğu yerdeki süslü parantezler
+içerisinde erişilebilirdir ve dışarısıda kullanılamaz.
+
+
+Scope Kavramı Nedir?
+Scope, ilgili değişkenlere ulaşabildiğimiz
+alanı temsil eder. Global Scope ve Local Scope
+(Block Scope ve Functtion Scope) olmak üzere
+türleri vardır. Global Scope. Fonksiyonların ya da
+for, if veya while gibi blokların dışında
+tanımlanan değişkenlerin sahip olduğu Scope 
+türüdür. Bu değişkenlere her yerden ulaşılabilir.
