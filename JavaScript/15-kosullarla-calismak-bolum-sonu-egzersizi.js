@@ -18,5 +18,5 @@ FF  0-49
 let examGrade = prompt("Puanı Girin")
 
 if(examGrade >= 90){
-    
+
 }
