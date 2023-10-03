@@ -5,4 +5,4 @@ let info = document.querySelector("#info")
 //ternary kullanım:
 //koşul ? doğruysa : yanlışsa
 
-info.innerHTML = `${userName.length > 0 ? userName : "Kullanici Bilginiz Bulunamadı :( "}`
+info.innerHTML = `${userName.length > 0 ? userName : "Kullanici Bilginiz Baaulunamadı :( "} `
